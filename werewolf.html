@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人狼ゲーム</title>
+    <script>
+        function vote(playerId) {
+            // プレイヤーの投票を処理する
+            // playerId をサーバーに送信する
+            // ここでは単純にアラートを表示するだけ
+            alert("投票しました: " + playerId);
+        }
+    </script>
+</head>
+<body>
+    <h1>人狼ゲーム</h1>
+    <ul>
+        <li><button onclick="vote(1)">プレイヤー1に投票</button></li>
+        <li><button onclick="vote(2)">プレイヤー2に投票</button></li>
+        <!-- 他のプレイヤーのボタンも同様に -->
+    </ul>
+</body>
+</html>
